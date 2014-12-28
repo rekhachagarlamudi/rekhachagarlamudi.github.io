@@ -324,7 +324,7 @@ section.published h3 {
 
 /*** SELECTOR ***/
 
-.selector {
+/**.selector {
   
 }
 
@@ -349,7 +349,7 @@ section.published h3 {
   box-shadow: 0px 0px 0px 1px #444,
               0px 0px 0px 5px white;
   cursor: pointer;
-}
+}**/
 
 /*.selection.seenit:hover:after {
   display: none;
