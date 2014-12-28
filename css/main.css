@@ -219,8 +219,8 @@ section.work h3 {
 }
 
 .selection-2 {
-  top: 0;
-  left: 100px;
+  top: 100px;
+  left: 0;
   background-image: url(../images/work/work2.jpg);
 }
 
@@ -237,10 +237,10 @@ section.work h3 {
   background-image: url(../images/work/work4.jpg);
 }
 
-.selection-5 {
+/*.selection-5 {
   top: 100px;
   left: 0px;
-  width: 191px;
+  width: 190px;
   background-image: url(../images/work/work5.jpg);
 }
 
@@ -276,7 +276,7 @@ section.work h3 {
   left: 200px;
   width: 190px;
   background-image: url(../images/work/work10.jpg);
-}
+}**/
 
 /*** VIEWER ***/
 .viewer {
