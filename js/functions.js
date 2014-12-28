@@ -33,6 +33,15 @@ function work() {
   });
 }
 
+function work() {
+  $('.selections-a div').hover(function() {
+    var $this = $(this),
+        index = $this.index();
+    $('.belt').css('margin-left', '-' + index * 455 + 'px');
+    $this.addClass('seenit');
+  });
+}
+
 
 
 
