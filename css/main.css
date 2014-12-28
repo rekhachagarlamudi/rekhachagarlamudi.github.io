@@ -215,6 +215,7 @@ section.work h3 {
 .selection-1 {
   top: 0;
   left: 0;
+  width: 390px;
   background-image: url(../images/work/work1.png);
 }
 
