@@ -90,7 +90,7 @@ h1.logo {
 }
 
 .nav li a {
-  color: #e33939;
+  color: #444;
   text-decoration: none;
   -webkit-font-smoothing: antialiased;
 }
@@ -157,7 +157,7 @@ section.about {
 *********************/
 
 section.work {
-  background: #e33939;
+  background: #444;
   height: 520px;
   position: relative;
   color: #ebebeb;
@@ -385,7 +385,7 @@ section.res {
 *********************/
 
 section.contact {
-    background: #e33939;
+    background: #444;
     height: 520px;
     position: relative;
     color: #ebebeb;
