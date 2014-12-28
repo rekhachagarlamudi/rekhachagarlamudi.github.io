@@ -2,6 +2,7 @@ $(document).ready(function() {
   
   slidingTitle();
   work();
+  published();
   scrollz();
   
 });
@@ -26,6 +27,15 @@ function slidingTitle() {
 
 function work() {
   $('.selections div').hover(function() {
+    var $this = $(this),
+        index = $this.index();
+    $('.belt').css('margin-left', '-' + index * 455 + 'px');
+    $this.addClass('seenit');
+  });
+}
+
+function published() {
+  $('.selectionsA div').hover(function() {
     var $this = $(this),
         index = $this.index();
     $('.belt').css('margin-left', '-' + index * 455 + 'px');
