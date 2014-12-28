@@ -237,8 +237,10 @@ section.work h3 {
 }
 
 .selection-4 {
-  top: 300px;
+  top: 285px;
   left: 200px;
+  height: 115px !important;
+  width: 190px	!important;
   background-image: url(../images/work/work4.jpg);
 }
 
