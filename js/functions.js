@@ -38,8 +38,7 @@ function published() {
   $('.selectionsA div').hover(function() {
     var $this = $(this),
         index = $this.index();
-    $('.belt').css('margin-left', '-' + index * 700 + 'px');
-    $this.addClass('seenit');
+    $('.belt').css('margin-left', '-' + index * 455 + 'px');
   });
 }
 
