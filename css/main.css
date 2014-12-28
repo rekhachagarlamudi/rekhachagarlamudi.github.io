@@ -183,8 +183,8 @@ section.work h3 {
 
 .selection {
   position: absolute;
-  width: 90px;
-  height: 90px;
+  /*width: 90px;
+  height: 90px;*/
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -215,7 +215,7 @@ section.work h3 {
 .selection-1 {
   top: 0;
   left: 0;
-  width: 390px !important;
+  width: 390px;
   background-image: url(../images/work/work1.png);
 }
 
