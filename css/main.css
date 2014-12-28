@@ -105,7 +105,7 @@ h1.logo {
   position: relative;
   background-attachment: fixed;
   overflow: hidden;
-  background: url(../images/work/couch.jpg) center center no-repeat;
+  background: url(../images/work/logo-big.png) center center no-repeat;
   height: 500px;
   z-index: 21;
 }
@@ -116,7 +116,7 @@ h1.logo {
   height: 375px;
   position: absolute;
   top: 13%;
-  background: url(../images/couch.jpg) center center no-repeat;
+  background: url(../images/logo-big.png) center center no-repeat;
 }
 
 
