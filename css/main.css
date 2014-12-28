@@ -221,20 +221,20 @@ section.work h3 {
 }
 
 .selection-2 {
-  top: 100px;
+  top: 160px;
   left: 0;
   background-image: url(../images/work/work2.jpg);
 }
 
 .selection-3 {
-  top: 100px;
+  top: 160px;
   left: 200px;
   height: 190px;
   background-image: url(../images/work/work3.jpg);
 }
 
 .selection-4 {
-  top: 200px;
+  top: 260px;
   left: 200px;
   background-image: url(../images/work/work4.jpg);
 }
