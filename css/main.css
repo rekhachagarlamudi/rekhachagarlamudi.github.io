@@ -225,7 +225,7 @@ section.work h3 {
 }
 
 .selection-3 {
-  top: 0;
+  top: 100px;
   left: 200px;
   height: 190px;
   background-image: url(../images/work/work3.jpg);
