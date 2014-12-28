@@ -197,7 +197,7 @@ section.work h3 {
   cursor: pointer;
 }
 
-.selection.seenit:hover:after {
+/*.selection.seenit:hover:after {
   display: none;
 }
 
@@ -210,7 +210,7 @@ section.work h3 {
   top: 0;
   left: 0;
   background: #e33939 url('../images/ex.png') no-repeat center center;
-}
+}*/
 
 .selection-1 {
   top: 0;
