@@ -237,7 +237,7 @@ section.work h3 {
   background-image: url(../images/work/work4.jpg);
 }
 
-.selection-5 {
+/*.selection-5 {
   top: 100px;
   left: 0px;
   width: 190px;
@@ -276,7 +276,7 @@ section.work h3 {
   left: 200px;
   width: 190px;
   background-image: url(../images/work/work10.jpg);
-}
+}*/
 
 /*** VIEWER ***/
 .viewer {
