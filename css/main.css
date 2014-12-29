@@ -316,8 +316,8 @@ section.work h3 {
 
 *********************/
 
-section.published 
-  background: #ebebeb;
+section.published {
+  background: #444;
   height: 520px;
   position: relative;
   color: #ebebeb;
