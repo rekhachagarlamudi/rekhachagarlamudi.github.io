@@ -224,21 +224,21 @@ section.work h3 {
   top: 160px;
   left: 0;
   width: 190px !important;
-  height: 230px !important;
+  height: 110px !important;
   background-image: url(../images/work/parenting.png);
 }
 
 .selection-3 {
   top: 160px;
   left: 200px;
-  height: 110px !important;
+  height: 230px !important;
   width: 190px !important;
   background-image: url(../images/work/individual.png);
 }
 
 .selection-4 {
   top: 280px;
-  left: 200px;
+  left: 0px;
   height: 110px !important;
   width: 190px	!important;
   background-image: url(../images/work/couple.png);
