@@ -608,10 +608,16 @@ input[type="submit"]:hover {
 	margin-top: 120px;
 }
 
-.email{
+.email {
 	margin-left: 130px;
 	position: absolute;
 	top: 103px;
+}
+
+.vcard {
+	position: absolute;
+	margin-left: 130px;
+	
 }
 
 .links p {
