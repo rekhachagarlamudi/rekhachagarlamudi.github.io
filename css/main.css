@@ -614,6 +614,10 @@ input[type="submit"]:hover {
 	top: 103px;
 }
 
+.tel {
+	color: white;
+}
+
 .vcard {
 	position: absolute;
 	margin-left: 130px;
