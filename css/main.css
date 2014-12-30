@@ -604,8 +604,9 @@ input[type="submit"]:hover {
 }
 
 .email{
-	margin-left: 45px;
-	position: relative;
+	margin-left: 100px;
+	position: absolute;
+	top: 103px;
 }
 
 .links p {
