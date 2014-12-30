@@ -594,17 +594,16 @@ input[type="submit"]:hover {
 :-moz-placeholder { color: #444; }
 
 
-.form-wrap {
+.form-wrap, .links {
   float: left;
   width: 480px;
 }
 
-.links {
+.contact-blurb {
 	margin-left: 45px;
-	width: 480px;
 }
 
-.contact-blurb {
+.email{
 	margin-left: 45px;
 }
 
