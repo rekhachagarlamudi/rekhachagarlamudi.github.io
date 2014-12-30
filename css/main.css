@@ -599,6 +599,10 @@ input[type="submit"]:hover {
   width: 480px;
 }
 
+.links {
+	margin-left: 45px;
+}
+
 .contact-blurb {
 	margin-left: 45px;
 }
