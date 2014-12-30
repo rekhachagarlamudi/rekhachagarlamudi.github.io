@@ -554,6 +554,7 @@ section.contact {
 section.contact h3 {
   color: #ebebeb;
   margin-left: 45px;
+  margin-bottom: 20px;
 }
 
 #contact-wrapper {
@@ -599,6 +600,10 @@ input[type="submit"]:hover {
 }
 
 .contact-blurb {
+	margin-left: 45px;
+}
+
+.email{
 	margin-left: 45px;
 }
 
