@@ -608,11 +608,9 @@ input[type="submit"]:hover {
 	margin-top: 120px;
 }
 
-/**.email {
-	margin-left: 130px;
-	position: absolute;
-	top: 103px;
-}**/
+.email {
+	text-decoration: none;
+}
 
 
 #tel {
