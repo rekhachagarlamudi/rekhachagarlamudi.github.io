@@ -635,6 +635,10 @@ input[type="submit"]:hover {
 	right: 127px;
 }
 
+#address:hover {
+	text-decoration: underline;
+}
+
 .vcard {
 	position: absolute;
 	margin-left: 130px;
