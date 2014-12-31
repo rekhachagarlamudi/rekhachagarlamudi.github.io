@@ -612,7 +612,7 @@ input[type="submit"]:hover {
 	text-decoration: none;
 }
 
-.email-hover {
+.email:hover {
 	text-decoration: underline;
 }
 
@@ -623,7 +623,7 @@ input[type="submit"]:hover {
 	top: 30px;
 }
 
-#tel-hover {
+#tel:hover {
 	text-decoration: underline;
 }
 
