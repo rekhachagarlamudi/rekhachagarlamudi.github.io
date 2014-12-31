@@ -614,6 +614,12 @@ input[type="submit"]:hover {
 	top: 103px;
 }**/
 
+.icon.phone {
+	line-height: 50px;
+	color: white;	
+
+}
+
 .tel {
 	color: white;
 	position: absolute;
