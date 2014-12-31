@@ -608,11 +608,11 @@ input[type="submit"]:hover {
 	margin-top: 120px;
 }
 
-.email {
+#email {
 	text-decoration: none;
 }
 
-.email:hover {
+#email:hover {
 	text-decoration: underline;
 }
 
