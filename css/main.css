@@ -612,11 +612,19 @@ input[type="submit"]:hover {
 	text-decoration: none;
 }
 
+.email-hover {
+	text-decoration: underline;
+}
+
 
 #tel {
 	color: white;
 	position: absolute;
 	top: 30px;
+}
+
+#tel-hover {
+	text-decoration: underline;
 }
 
 .vcard {
