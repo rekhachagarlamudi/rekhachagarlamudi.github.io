@@ -628,6 +628,13 @@ input[type="submit"]:hover {
 	text-decoration: underline;
 }
 
+#address {
+	color: white;
+	position: absolute;
+	top: 60px;
+	right: 127px;
+}
+
 .vcard {
 	position: absolute;
 	margin-left: 130px;
