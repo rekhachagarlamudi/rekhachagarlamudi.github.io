@@ -615,7 +615,7 @@ input[type="submit"]:hover {
 }**/
 
 
-.tel {
+#tel {
 	color: white;
 	position: absolute;
 	top: 30px;
