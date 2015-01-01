@@ -18,7 +18,7 @@ h3 {
   text-transform: uppercase;
   font-size: 34px;
   color: #444;
-  padding-top: 40px;
+  padding-top: 30px;
   line-height: 1;
   padding-bottom: 10px;
 }
@@ -129,12 +129,12 @@ h1.logo {
 
 section.about {
   background: #ebebeb;
-  height: 475px;
+  height: 510px;
   color: #444;
 }
 
 .pic {
-  height: 475px;
+  height: 510px;
   width: 475px;
   float: left;
   background: url(../images/los.jpg) no-repeat center center;
@@ -145,6 +145,7 @@ section.about {
 
 .about p {
   padding: 0 50px;
+  font-size: 13px;
 }
 
 
@@ -178,7 +179,7 @@ section.work h3 {
   width: 390px;
   height: 390px;
   position: relative;
-  margin: 25px 0px 0px 45px;
+  margin: 35px 0px 0px 45px;
 }
 
 .selection {
@@ -338,7 +339,7 @@ section.published h3 {
   width: 390px;
   height: 390px;
   position: relative;
-  margin: 25px 0px 0px 45px;
+  margin: 35px 0px 0px 45px;
 }
 
 .selectionA {
