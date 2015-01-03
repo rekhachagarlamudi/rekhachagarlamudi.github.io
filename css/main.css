@@ -326,7 +326,7 @@ section.published {
 
 section.published h3 {
   color: #ffffff;
-  margin-left: 486px;
+  margin-left: 530px;
 }
 
 /*** SELECTOR ***/
@@ -339,7 +339,7 @@ section.published h3 {
   width: 390px;
   height: 390px;
   position: relative;
-  margin: 35px 0px 0px 486px;
+  margin: 35px 0px 0px 530px;
 }
 
 .selectionA {
@@ -447,7 +447,6 @@ section.published h3 {
   background: lightblue;
   position: absolute;
   top: 0px;
-  right: 441px;
   overflow: hidden;
 }
 
