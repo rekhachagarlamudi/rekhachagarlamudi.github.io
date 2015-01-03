@@ -353,7 +353,7 @@ section.published h3 {
 }
 
 .selectionA:hover {
-  box-shadow: 0px 0px 0px 1px #ebebeb,
+  box-shadow: 0px 0px 0px 1px #ebebeb!important,
               0px 0px 0px 5px white;
   cursor: pointer;
 }
