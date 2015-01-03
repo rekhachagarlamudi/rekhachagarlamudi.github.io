@@ -321,11 +321,11 @@ section.published {
   background: #ebebeb;
   height: 520px;
   position: relative;
-  color: #444;
+  color: #ebebeb;
 }
 
 section.published h3 {
-  color: #ffffff;
+  color: #444;
   margin-left: 530px;
 }
 
