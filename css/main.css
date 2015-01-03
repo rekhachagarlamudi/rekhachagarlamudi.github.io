@@ -318,10 +318,10 @@ section.work h3 {
 *********************/
 
 section.published {
-  background: #444;
+  background: #ebebeb;
   height: 520px;
   position: relative;
-  color: #ebebeb;
+  color: #444;
 }
 
 section.published h3 {
