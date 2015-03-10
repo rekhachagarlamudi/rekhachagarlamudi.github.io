@@ -106,7 +106,7 @@ h1.logo {
   background-attachment: fixed;
   overflow: hidden;
   background: url(../images/work/couch.jpg) center center no-repeat;
-  height: 650px;
+  height: 600px;
   z-index: 21;
 }
 
