@@ -169,6 +169,11 @@ section.work h3 {
   margin-left: 45px;
 }
 
+.work p {
+	padding: 0 50px;
+	font-size: 14px;
+}
+
 /*** SELECTOR ***/
 
 .selector {
