@@ -611,7 +611,7 @@ input[type="submit"]:hover {
 #email {
 	text-decoration: none;
 	position: relative;
-	right: 2px;
+	left: 6px;
 }
 
 #email:hover {
@@ -623,7 +623,7 @@ input[type="submit"]:hover {
 	color: white;
 	position: inherit;
 	top: 30px;
-	right: 127px;
+	left: 8px;
 }
 
 #tel:hover {
@@ -634,7 +634,7 @@ input[type="submit"]:hover {
 	color: white;
 	position: absolute;
 	top: 60px;
-	right: 23px;
+	left: 8px;
 }
 
 #address:hover {
