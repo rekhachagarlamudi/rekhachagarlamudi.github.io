@@ -610,8 +610,8 @@ input[type="submit"]:hover {
 
 #email {
 	text-decoration: none;
-	position: absolute;
-	right: 114px;
+	position: relative;
+	right: -10px;
 }
 
 #email:hover {
