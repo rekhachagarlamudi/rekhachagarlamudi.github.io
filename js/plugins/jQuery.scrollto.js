@@ -73,7 +73,7 @@ $('.foo').scrollto({
                             if (options.headerSelector &&
                                 options.headerSubtract &&
                                 $header.length) {
-                                offset = target_offset_top - $header.outerHeight();
+                                offset = target_offset_top - $header.outerHeight() - 10;
                             } else {
                                 offset = target_offset_top;
                             }
@@ -92,14 +92,7 @@ $('.foo').scrollto({
              *                         the address bar).
              */
             function scrollTo(offset, speed, href) {
-                // Check to see if preventDefault or stopPropagation are
-                // required.
-                if (options.preventDefault) {
-                    event.preventDefault();
-                }
-                if (options.stopPropagation) {
-                    event.stopPropagation();
-                }
+
                 // Start the scrolling.
                 $('html, body')
                     .stop()

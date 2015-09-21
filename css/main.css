@@ -31,6 +31,7 @@
  * Section - Impact
  * Section - Flipper
  * Section - Text Columns
+ * Section - Contact
  * vCard
  *
  *
@@ -45,11 +46,11 @@
   */
  @font-face {
      font-family: 'icomoon';
-     src:url('/fonts/icomoon.eot?-31l1yy');
-     src:url('/fonts/icomoon.eot?#iefix-31l1yy') format('embedded-opentype'),
-         url('/fonts/icomoon.ttf?-31l1yy') format('truetype'),
-         url('/fonts/icomoon.woff?-31l1yy') format('woff'),
-         url('/fonts/icomoon.svg?-31l1yy#icomoon') format('svg');
+     src:url('/fonts/icomoon.eoty');
+     src:url('/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/icomoon.ttf?') format('truetype'),
+         url('/fonts/icomoon.woff?') format('woff'),
+         url('/fonts/icomoon.svg?#icomoon') format('svg');
      font-weight: normal;
      font-style: normal;
  }
@@ -145,10 +146,12 @@ li {
    background-color: #7eb6f0;
  }
 
-
  /* ==========================================================================
     Icons
     ========================================================================== */
+.icon--chevron-right:before {
+  content: "\e603";
+}
 .icon--location:before {
     content: "\e600";
 }
@@ -245,16 +248,11 @@ li {
 /* ==========================================================================
    Site-footer
    ========================================================================== */
-.site-footer {
-    margin-bottom: 4rem;
-}
 
-@media only screen and (min-width: 40em) {
-
-    .site-footer {
-        margin-bottom: 9rem;
-    }
-
+.copyright {
+  color: #ccc;
+  font-size: 0.8rem;
+  margin: 0.5rem 0 1.5rem;
 }
 /* ==========================================================================
    Main navigation
@@ -323,7 +321,7 @@ li {
 
       .nav--main .nav__item a {
         margin-left: 0;
-        padding-left: 0.75rem;
+        padding: 2.75rem 0.5rem;
         border: 0;
         background-color: transparent;
         text-transform: uppercase;
@@ -530,6 +528,7 @@ li {
    ========================================================================== */
 .section--text-with-image {
     background-color: #ebebeb;
+
 }
 
 .bio-photo {
@@ -541,22 +540,32 @@ li {
 }
 
 @media only screen and (min-width: 40em) {
-
+    .section--text-with-image {
+      padding: 1.5rem;
+    }
     .bio-photo {
         height: 36rem;
-        margin-top: 2rem;
-        margin-bottom: 0;
+        margin-top: 4rem;
     }
     .section--text-with-image .section__content {
-        padding: 1.5rem 2rem;
+        padding: 0 2rem;
     }
 
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 50em) {
+
+  .bio-photo {
+    margin-bottom: 2rem;
+  }
+
+}
+
+@media only screen and (min-width: 55em) {
 
     .bio-photo {
         margin-top: 0;
+        margin-bottom: 0;
     }
 
 }
@@ -570,8 +579,51 @@ li {
 }
 
 .flipper__content {
-    display: none;
     padding: 0.5rem;
+    width: 100%;
+}
+
+.section--flipper__items {
+  display: none;
+}
+
+.accordion-content {
+  position: relative;
+  overflow: auto;
+  display: none;
+}
+
+.flipper__content h3 {
+  margin: 1rem 0 0 0;
+  padding-right: 2rem;
+  cursor: pointer;
+  position: relative;
+}
+
+.flipper__content h3:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  content: "\e603";
+  font-family: 'icomoon';
+  right: 0;
+  top: 0;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+     -moz-transition: -moz-transform 0.3s ease-out;
+       -o-transition: -o-transform 0.3s ease-out;
+          transition: transform 0.3s ease-out;
+}
+
+.flipper__content.is-active h3:after {
+  -webkit-transform: rotate(90deg);
+     -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+       -o-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.flipper__contents > .flipper__content:first-child > .accordion-content {
+  display: block;
 }
 
 .flipper__content.is-active { display: inline-block; }
@@ -621,51 +673,81 @@ li {
 
 @media only screen and (min-width: 40em) {
 
-    .cell--contents {
-        margin-left: 1rem;
-    }
 
-    .flipper__content {
-        padding: 1rem;
-    }
+  .section--flipper__items {
+    display: block;
+  }
 
-    .flipper__text {
-        font-size: 1.4rem;
-    }
+  .accordion-content {
+    display: block;
+  }
 
-    .flipper__item.double-height {
-        height: 17rem;
-    }
+  .flipper__content h3 {
+    margin: 1rem 0 !important;
+    cursor: default;
+    padding-right: 0;
+  }
 
-    .flipper__contents {
-        background-color: white;
-    }
+  .flipper__content,
+  .flipper__content h3:after {
+    display: none;
+  }
 
-    .section.section--dark .flipper__contents {
-        background-color: #e5e5e5;
-    }
+  .section--flipper h2 {
+    padding-top: 2rem;
+    padding-bottom: 0.25rem;
+  }
 
-    .flipper__item {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        height: 8rem;
-    }
+  .cell--contents {
+      margin-left: 1rem;
+  }
 
-    .section--flipper__items {
-        margin-bottom: 0;
-    }
+  .flipper__content {
+      padding: 1rem;
+  }
 
-    .cell--right .flipper__contents {
-        margin-left: 1.5rem;
-    }
+  .flipper__text {
+      font-size: 1.4rem;
+  }
 
-    .section.section--dark .flipper__contents,
-    .section.section--dark .flipper__contents p,
-    .section.section--dark .flipper__contents h1,
-    .section.section--dark .flipper__contents h2,
-    .section.section--dark .flipper__contents h3 {
-        color: #444;
-    }
+  .flipper__item.double-height {
+      height: 16.5rem;
+  }
+
+  .flipper__contents {
+      background-color: white;
+  }
+
+  .grid--unpadded > .cell.padding-left--small {
+    padding-left: 0.5rem;
+  }
+
+  .section.section--dark .flipper__contents {
+      background-color: #e5e5e5;
+  }
+
+  .flipper__item {
+      margin-top: 0.25rem;
+      margin-bottom: 0.25rem;
+      height: 8rem;
+  }
+
+  .section--flipper__items {
+      margin-bottom: 0;
+  }
+
+  .cell--right .flipper__contents {
+      margin-left: 1.5rem;
+  }
+
+  .section.section--dark .flipper__contents,
+  .section.section--dark .flipper__contents p,
+  .section.section--dark .flipper__contents h1,
+  .section.section--dark .flipper__contents h2,
+  .section.section--dark .flipper__contents h3,
+  .section.section--dark .flipper__contents li {
+      color: #444;
+  }
 
 }
 
@@ -694,34 +776,63 @@ li {
 }
 
 /* ==========================================================================
-   vCard
+   Section - Contact Us
    ========================================================================== */
-
-.vcard a {
-    font-size: 1rem;
-    line-height: 1.75;
-    display: block;
-    font-family: 'Open Sans','Helvetica', 'Arial', sans-serif;
+.section--contact {
+  padding: 4rem 3rem;
+  color: white;
 }
 
-.vcard a:link,
-.vcard a:visited {
+.section--contact p {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.section--contact .cell {
+  margin-bottom: 2.5rem;
+}
+
+.section--contact p strong {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.section--contact a {
+    font-family: 'Open Sans','Helvetica', 'Arial', sans-serif;
+    font-style: normal;
+    line-height: 1.75;
+    display: block;
+}
+
+.section--contact a:link,
+.section--contact a:visited {
     color: white;
     text-decoration: none;
 }
 
+.section--contact a:hover,
+.section--contact a:focus {
+  text-decoration: underline;
+}
+
+.contact__icon {
+  height: 2rem;
+  margin-bottom: 1.5rem;
+}
+
 @media only screen and (min-width: 40em) {
 
-    .vcard a {
-        font-size: 1.2rem;
-    }
+  .section--contact {
+    padding: 6rem 5rem;
+  }
 
+  .section--contact .cell {
+    margin-bottom: 0;
+  }
 }
 
 @media only screen and (min-width: 60em) {
 
-    .vcard {
-        padding-left: 2rem;
-    }
 
 }
